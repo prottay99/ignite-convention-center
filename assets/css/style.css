@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 a{
     text-decoration: none;
@@ -12,25 +13,17 @@ a{
 .slider_text {
     font-size: 0.9rem;
 }
-@media screen and (min-width:720px){
-    #demo{
-        max-width: 100%;
-    }
-    #slideshow.slider_text {
-        font-size: 0.5rem;
-    }
-    
+#slider-text-bg {
+    background-color: rgba(90, 85, 89, 0.5);
+}
+.rounded {
+    border-radius: 0.25rem !important;
 }
 #logo-text {
-    font-weight: 600;
-    font-size: 1.25rem;
+    font-weight: bolder;
+    font-size: 1.15rem;
 }
-#logo-text:hover {
+#nav-text-style {
+    font-size: 0.9rem;
     color: #000;
-}
-#menu-item {
-    font-size: 0.95rem;
-}
-.navbar-toggler-icon {
-    background-image: url(../img/svg_.svg);
 }

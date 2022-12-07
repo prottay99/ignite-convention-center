@@ -25,11 +25,24 @@
 
     <!-- Header part start  -->
     <header>
-        <nav class="navbar navbar-expand-lg my-2 bg-light">
-            <div class="container px-2">
+        <nav class="navbar navbar-expand-md my-2 bg-light navbar-light">
+            <div class="container px-3">
                 <a href="#" class="navbar-brand">
                     <span id="logo-text">Ignite Convention Center</span>
                 </a>
+
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#myMenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div id="myMenu" class="collapse navbar-collapse justify-content-end">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a href="#" class="nav-link" id="nav-text-style">Home</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" id="nav-text-style">About</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" id="nav-text-style">Event</a></li>
+                    </ul>
+                </div>
+
 
 
             </div>
@@ -39,58 +52,63 @@
 
 
     <!-- Carousel  -->
-    <div id="demo" class="carousel slide" data-bs-ride="carousel">
-
-        <!-- Indicators/dots -->
+    <div id="myslider" class="carousel slide" data-bs-ride="carousel">
+        <!-- slider indicator -->
         <div class="carousel-indicators">
-            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            <button class="active" type="button" data-bs-target="#myslider" data-bs-slide-to="0"></button>
+            <button type="button" data-bs-target="#myslider" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#myslider" data-bs-slide-to="2"></button>
         </div>
-
-        <!-- The slideshow/carousel -->
+        <!-- slider  add-->
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="assets/img/slider-1.jpg" alt="Los Angeles" class="d-block" style="width:100%">
-                <div id="slideshow" class="carousel-caption rounded p-5 mb-5">
-                    <h5 class="slider_text">The Avenue Restaurant</h5>
-                    <p class="slider_text">Everyone gets what they want at The Avenue. With four main cuisines
-                        Bengali,Indian,Chinese and Thai. Your favourites are prepared a-la-carte and hand crafted by our
-                        trained Chefs. A special children's area keeps the children entertained..</p>
-                    <button class="btn btn-secondary">More Details</button>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="assets/img/slider-2.jpg" alt="Chicago" class="d-block" style="width:100%">
-                <div id="slideshow" class="carousel-caption rounded p-5 mb-5">
-                    <h5 class="slider_text">Grand Ballroom</h5>
-                    <p class="slider_text">The Grand Ballroom, is a multi-function room which is perfect for your next
-                        event. It can be used for weddings, birthday parties, corporate seminar, or conference. The
-                        possibilities are endless. Two venues make-up the Grand Ball Room. With a seating capacity of
-                        700-750 + 220-250.We are able to combine the two venues for additional room..
+                <img src="assets/img/slider-1.jpg" alt="" class="d-block w-100">
+                <div class="carousel-caption p-5 rounded mb-5" id="slider-text-bg">
+                    <h5>The Avenue Restaurant</h5>
+                    <p>Everyone gets what they want at The Avenue. With four main cuisines Bengali,Indian,Chinese and
+                        Thai. Your favourites are prepared a-la-carte and hand crafted by our trained Chefs. A special
+                        children's area keeps the children
+                        entertained..
                     </p>
                     <button class="btn btn-secondary">More Details</button>
                 </div>
             </div>
+
             <div class="carousel-item">
-                <img src="assets/img/slider-3.jpg" alt="New York" class="d-block" style="width:100%">
-                <div id="slideshow" class="carousel-caption rounded p-5 mb-5">
-                    <h5 class="slider_text">Awesome Audotarium</h5>
-                    <p class="slider_text">For any event we have awesome audotarium. You can always check to what play
-                        is being staged here . Even if you take a chance , sometime free shows are staged where you can
-                        watch on first come first basis .</p>
+                <img src="assets/img/slider-2.jpg" alt="" class="d-block w-100">
+                <div class="carousel-caption p-5 rounded mb-5" id="slider-text-bg">
+                    <h5>Grand Ballroom</h5>
+                    <p>The Grand Ballroom, is a multi-function room which is perfect for your next event. It can be used
+                        for weddings, birthday parties, corporate seminar, or conference. The possibilities are endless.
+                        Two venues make-up the Grand
+                        Ball Room. With a seating capacity of 700-750 + 220-250.We are able to combine the two venues
+                        for additional room..
+                    </p>
                     <button class="btn btn-secondary">More Details</button>
                 </div>
             </div>
+
+            <div class="carousel-item">
+                <img src="assets/img/slider-3.jpg" alt="" class="d-block w-100">
+                <div class="carousel-caption p-5 rounded mb-5" id="slider-text-bg">
+                    <h5>Awesome Audotarium</h5>
+                    <p>For any event we have awesome audotarium. You can always check to what play is being staged here
+                        . Even if you take a chance , sometime free shows are staged where you can watch on first come
+                        first basis .
+                    </p>
+                    <button class="btn btn-secondary">More Details</button>
+                </div>
+            </div>
+
         </div>
 
-        <!-- Left and right controls/icons -->
-        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#myslider" data-bs-slide="prev">
             <span class="carousel-control-prev-icon"></span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#myslider" data-bs-slide="next">
             <span class="carousel-control-next-icon"></span>
         </button>
+
     </div>
 
 
