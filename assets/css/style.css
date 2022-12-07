@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+#slideshow{
+    background-color: rgb(90,85,89,0.5);
+}
+.slider_text {
+    font-size: 0.9rem;
+}
+@media screen and (min-width:720px){
+    #demo{
+        max-width: 100%;
+    }
+    #slideshow.slider_text {
+        font-size: 0.5rem;
+    }
+    
+}
+#logo-text {
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+#logo-text:hover {
+    color: #000;
+}
+#menu-item {
+    font-size: 0.95rem;
+}
+.navbar-toggler-icon {
+    background-image: url(../img/svg_.svg);
+}
