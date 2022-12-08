@@ -66,5 +66,7 @@ p {
     position: absolute;
     top: -17px;
     left: 66%;
-
+}
+.user-name {
+    font-weight: bold;
 }
