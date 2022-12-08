@@ -39,3 +39,32 @@ p {
 #formBtn {
     font-size: 0.9rem;
 }
+.common-text {
+    color: #848199;
+}
+.btn_common {
+    padding: 5px 20px;
+    border-radius: 20px;
+    color: #3F87F5;
+    border: none;
+    background-color: #fffefe;
+}
+.weeding-plus {
+    background-color: #3F87F5;
+    color: #fffefe;
+    border-radius: 20px;
+    box-shadow: 0px 56px 90px -35px #3f94f5;
+    position: relative;
+    top: -50px;
+}
+.weeding-plus-btn {
+    color: #fff;
+    background-color: red;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 20px;
+    position: absolute;
+    top: -17px;
+    left: 66%;
+
+}
