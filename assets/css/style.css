@@ -7,6 +7,12 @@ a{
     text-decoration: none;
     color: #000;
 }
+h5 {
+    font-size: 1.25rem;
+}
+p {
+    font-size: 0.9rem;
+}
 #slideshow{
     background-color: rgb(90,85,89,0.5);
 }
@@ -26,4 +32,10 @@ a{
 #nav-text-style {
     font-size: 0.9rem;
     color: #000;
+}
+#formInputText::placeholder {
+    font-size: 0.9rem;
+}
+#formBtn {
+    font-size: 0.9rem;
 }
